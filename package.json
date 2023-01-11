@@ -1,0 +1,33 @@
+{
+    "name": "hello-express",
+    "version": "0.0.1",
+    "description": "A simple Node app built on Express, instantly up and running.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node -r dotenv/config index.js",
+        "dev": "nodemon node index.js",
+        "dev:wait": "node ./node_modules/nodemon/bin/nodemon.js --exec \"node -r dotenv/config index.js\""
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "connect-mongo": "^4.6.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.3",
+        "firebase": "^9.13.0",
+        "mongoose": "^6.7.1",
+        "multer": "^1.4.5-lts.1",
+        "passport": "^0.6.0",
+        "passport-local": "^1.0.0",
+        "pug": "^3.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ShannonEchegaray/Desarollo-Backend---Shannon-Echegaray"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "dotenv": "^16.0.2",
+        "nodemon": "^2.0.20"
+    }
+}
