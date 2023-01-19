@@ -11,9 +11,9 @@ block content
     body.bg-dark
         main.container.text-white
             section.row.justify-content-center.mb-4
-                a.btn.btn-danger.col-2.m-4(href="/api/register") Ir a Register
+                a.btn.btn-danger.col-2.m-4(href="/register") Ir a Register
                 h2.text-center.mb-4 Formulario de login
-                form#enviarProducto.col-6.d-flex.flex-column.align-items-center.justify-content-center.border.rounded.py-4(action='/api/login' method='POST')
+                form#enviarProducto.col-6.d-flex.flex-column.align-items-center.justify-content-center.border.rounded.py-4(action='/login' method='POST')
                     .mb-3
                         label.form-label.text-center.d-block(for='email') Email
                         input#nombreProducto.w-100.px-4.form-control(required='' type='text' placeholder='Ingrese su email...' name='email')

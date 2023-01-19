@@ -1,42 +1,26 @@
-# Entrega Proyecto 2
+# Desafio-15: Arquitectura de Capas
 
-![Imagen de express.js](https://i.imgur.com/ksVYRtt.png)
+En este proyecto se aplicara arquitectura de capas
 
 ## Configuracion
 
-- Para poder iniciar el proyecto se debe 
+- Para poder iniciar el proyecto se debe clonar o descargar el repositorio
 
 ```
-git checkout entrega-1
+git clone https://github.com/ShannonEchegaray/Desarollo-Backend---Shannon-Echegaray
+```
+
+- A continuacion, ya descargado ejecutar los siguiente comando desde la carpeta "Desarrollo-Backend---Shannon-Echegaray"
+
+```
+git checkout desafio-15
 npm install
 ```
 
 - Ya ejecutado, crear un archivo llamado ".env" y dentro escribir lo siguiente
 
 ```
-PORT=8080
 NODE_ENV=local
-NODE_BASE= //Tipo de persistencia de datos que quieras utilizar: "memory|file|mongodb|firestore"
-
-//Estos datos son los datos de configuracion para conectarse a mongodb
-MONGO_URL=mongodb://localhost:27017/ecommerce
-
-//Estos datos son los datos de configuracion para conectarse a firebase
-apiKey=
-authDomain=
-projectId=
-storageBucket=
-messagingSenderId=
-appId=
+NODE_URL="http://localhost"
+MONGO_URL=#URL de la base de datos
 ```
-
-- Por ultimo ejecutar los comandos
-
-```
-mongod --dbpath ./
-npm start
-```
-
-En el caso de usar el mongodb, usar la base "mongodb" que deje ya con sus colections
-
-*Se dejara en el repositorio un export de los metodos utilizados para poder hacer llamadas a la API, El archivo es "Collection Desafio 4.postman-collection.json"*
