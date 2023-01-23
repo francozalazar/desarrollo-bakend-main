@@ -4,13 +4,9 @@ En este proyecto se aplicara arquitectura de capas
 
 ## Configuracion
 
-- Para poder iniciar el proyecto se debe clonar o descargar el repositorio
+- Para poder iniciar el proyecto se debe  descargar el repositorio
 
-```
-git clone https://github.com/ShannonEchegaray/Desarollo-Backend---Shannon-Echegaray
-```
-
-- A continuacion, ya descargado ejecutar los siguiente comando desde la carpeta "Desarrollo-Backend---Shannon-Echegaray"
+- A continuacion, ya descargado ejecutar los siguiente comando desde la carpeta "Desarrollo-Backend-"
 
 ```
 git checkout desafio-15
